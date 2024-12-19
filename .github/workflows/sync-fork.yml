@@ -20,6 +20,7 @@ on:
   workflow_dispatch:  # Allows manual trigger
 
 permissions:
+  actions: write
   contents: write     # using 'write' to allow pushing
   issues: write
 

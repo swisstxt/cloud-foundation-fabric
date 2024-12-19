@@ -33,6 +33,6 @@ jobs:
           fetch-depth: 1                      # Only get latest commit
       - uses: swisstxt/ast-gh-actions/upstream-tag-sync@VAST-294-upstream-tag-sync
         with:
-          target-repo: swisstxt/ast-gcp-cloud-foundation-fabric
+          target-repo: swisstxt/cloud-foundation-fabric
           upstream-repo: GoogleCloudPlatform/cloud-foundation-fabric
           github-token: ${{ secrets.GITHUB_TOKEN }}

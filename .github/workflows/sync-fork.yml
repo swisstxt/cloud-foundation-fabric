@@ -32,6 +32,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 1                      # Only get latest commit
+          token: ${{ secrets.SYNC_PAT }}      # Token to push back to fork
       - uses: swisstxt/ast-gh-actions/upstream-tag-sync@VAST-294-upstream-tag-sync
         with:
           target-repo: swisstxt/cloud-foundation-fabric

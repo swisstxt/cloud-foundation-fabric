@@ -36,4 +36,4 @@ jobs:
         with:
           target-repo: swisstxt/cloud-foundation-fabric
           upstream-repo: GoogleCloudPlatform/cloud-foundation-fabric
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.SYNC_PAT }}
